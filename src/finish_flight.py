@@ -43,9 +43,12 @@ action_url = (f"&action={ACTION}&rentalTime={flight_time}"
 url = f"{HOST}user={USER}&pass={PASSWORD}{action_url}"
 
 try:
-    response = requests.get(url)
-    print("Response Status:", response.status_code)
-    print("Response text:", response.text)
-
+    response = requests.get(url, timeout=10)  # 10 seconds timeout
+    response.raise_for_status()  # Check for any HTTP errors
+except requests.exceptions.Timeout:
+    print("The request timed out")
 except requests.exceptions.RequestException as e:
-    print("An error occurred:", e)
+    print(f"An error occurred: {e}")
+else:
+    print("Response Status:", response.status_code)
+    print(response.text)
