@@ -1,3 +1,8 @@
+"""
+This module performs FSEconomy API account check procedure.
+It contains functions that allow the user to log in to FSEconomy account with FSE API.
+"""
+
 import os
 import urllib.parse
 import requests
