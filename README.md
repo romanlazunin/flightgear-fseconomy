@@ -1,6 +1,6 @@
 # flightgear-fseconomy
 
-Experimental Flightgear and FSEconomy integration
+Experimental Flightgear and FSEconomy integration :flight_departure::chart_with_upwards_trend:
 
 A set of python scripts to manually start and finish FSEconomy flight.
 
