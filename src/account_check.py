@@ -12,7 +12,7 @@ if PASSWORD:
 
 ACTION = "accountCheck"
 
-url = (f"{HOST}user={USER}&pass={PASSWORD}&action={ACTION}")
+url = f"{HOST}user={USER}&pass={PASSWORD}&action={ACTION}"
 
 try:
     response = requests.get(url)
