@@ -1,0 +1,16 @@
+Response Text: <?xml version="1.0"?><response><payloadWeight>78</payloadWeight>
+<totalWeight>5999</totalWeight>
+<registration>P2-GDO</registration>
+<fuel>0.0 175.0 0.0 0.0 175.0 0.0 0.0 0.0 0.0 0.0 0.0 </fuel>
+<equipment>7</equipment>
+<leaseExpires>14400</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>442</rentalPrice>
+<assignment>
+<from>TLF</from>
+<to>GRN</to>
+<cargo><![CDATA[Cargo 1kg]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>
