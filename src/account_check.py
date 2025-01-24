@@ -1,6 +1,6 @@
 import os
-import requests
 import urllib.parse
+import requests
 
 HOST = "https://server.fseconomy.net/fsagentFSX?"
 
