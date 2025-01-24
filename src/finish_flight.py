@@ -37,7 +37,7 @@ fuel_url = (f"&c={central}{tanks_left_url}&rm={right_main}&ra={right_aux}"
 
 engineStr = "&mixture1=0&heat1=0&time1=" + flight_time
 
-action_url = (f"&action={action}&rentalTime={flight_time}"
+action_url = (f"&action={ACTION}&rentalTime={flight_time}"
               f"{lat_lon}{fuel_url}{engineStr}")
 
 url = f"{HOST}user={USER}&pass={PASSWORD}{action_url}"
