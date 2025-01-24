@@ -2,15 +2,17 @@ import os
 import requests
 import urllib.parse
 
-host = "https://server.fseconomy.net/fsagentFSX?"
+HOST = "https://server.fseconomy.net/fsagentFSX?"
 
-user = os.getenv("FSE_USER")
-password = os.getenv("FSE_PASSWORD")
-password = urllib.parse.quote(password)
+USER = os.getenv("FSE_USER")
+PASSWORD = os.getenv("FSE_PASSWORD")
 
-action = "accountCheck"
+if PASSWORD:
+    PASSWORD = urllib.parse.quote(PASSWORD)
 
-url = host + "user=" + user + "&pass=" + password + "&action=" + action
+ACTION = "accountCheck"
+
+url = (f"{HOST}user={USER}&pass={PASSWORD}&action={ACTION}")
 
 try:
     response = requests.get(url)
