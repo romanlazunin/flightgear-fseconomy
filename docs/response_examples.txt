@@ -1,16 +1,31 @@
-Response Text: <?xml version="1.0"?><response><payloadWeight>78</payloadWeight>
-<totalWeight>5999</totalWeight>
-<registration>P2-GDO</registration>
-<fuel>0.0 175.0 0.0 0.0 175.0 0.0 0.0 0.0 0.0 0.0 0.0 </fuel>
-<equipment>7</equipment>
-<leaseExpires>14400</leaseExpires>
-<accounting>hour</accounting>
-<rentedDry>true</rentedDry>
-<rentalPrice>442</rentalPrice>
-<assignment>
-<from>TLF</from>
-<to>GRN</to>
-<cargo><![CDATA[Cargo 1kg]]></cargo>
-<comment><![CDATA[]]></comment>
-</assignment>
+<?xml version="1.0"?>
+<response>
+    <payloadWeight>78</payloadWeight>
+    <totalWeight>5999</totalWeight>
+    <registration>P2-GDO</registration>
+    <fuel>0.0 175.0 0.0 0.0 175.0 0.0 0.0 0.0 0.0 0.0 0.0 </fuel>
+    <equipment>7</equipment>
+    <leaseExpires>14400</leaseExpires>
+    <accounting>hour</accounting>
+    <rentedDry>true</rentedDry>
+    <rentalPrice>442</rentalPrice>
+    <assignment>
+    <from>TLF</from>
+    <to>GRN</to>
+    <cargo><![CDATA[Cargo 1kg]]></cargo>
+    <comment><![CDATA[]]></comment>
+    </assignment>
+</response>
+
+<?xml version="1.0"?>
+<response>
+    <payloadWeight>77</payloadWeight>
+    <totalWeight>862</totalWeight>
+    <registration>P2-GWS</registration>
+    <fuel>0.0 7.431375 0.0 0.0 7.431375 0.0 0.0 0.0 0.0 0.0 0.0 </fuel>
+    <equipment>4</equipment>
+    <leaseExpires>10800</leaseExpires>
+    <accounting>hour</accounting>
+    <rentedDry>true</rentedDry>
+    <rentalPrice>80</rentalPrice>
 </response>
