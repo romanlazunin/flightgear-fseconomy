@@ -1,3 +1,7 @@
+"""
+This module performs FSEconomy API cancel flight procedure
+"""
+
 import os
 import urllib.parse
 import requests
@@ -12,10 +16,10 @@ if PASSWORD:
 
 ACTION = "cancel"
 
-url = f"{HOST}user={USER}&pass={PASSWORD}&action={ACTION}"
+URL = f"{HOST}user={USER}&pass={PASSWORD}&action={ACTION}"
 
 try:
-    response = requests.get(url, timeout=10)  # 10 seconds timeout
+    response = requests.get(URL, timeout=10)  # 10 seconds timeout
     response.raise_for_status()  # Check for any HTTP errors
 except requests.exceptions.Timeout:
     print("The request timed out")
