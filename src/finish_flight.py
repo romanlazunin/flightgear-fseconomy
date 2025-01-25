@@ -1,5 +1,10 @@
+"""
+This module performs FSEconomy API finish flight procedure
+"""
+
 import os
 import urllib.parse
+import sys
 import requests
 
 HOST = "https://server.fseconomy.net/fsagentFSX?"
@@ -12,25 +17,12 @@ if PASSWORD:
 
 ACTION = "arrive"
 
-flight_time = "1620"  # seconds
-lat = "-3.89958546582"
-lon = "141.186346745107"
+flight_time, lat, lon, central, left_main, left_aux, left_tip, right_main, right_aux, right_tip, c2, c3, x1, x2 = sys.argv[1:15]
+# python finish_flight.py 840 61.40733306707077 -143.0400043740288 18.941685 0.0 0.0 0.0 0.0 0.0 0.0 14.5 0.15106675 0.0 0.0
+
 lat_lon = "&lat=" + lat + "&lon=" + lon
 # fuel
-central = "0.0"
-left_main = "99.0"
-left_aux = "0.0"
-left_et = "0.0"
-tanks_left_url = "&lm=" + left_main + "&la=" + left_aux + "&let=" + left_et
-
-right_main = "99.0"
-right_aux = "0.0"
-right_tip = "0.0"
-
-c2 = "0.0"
-c3 = "0.0"
-x1 = "0.0"
-x2 = "0.0"
+tanks_left_url = "&lm=" + left_main + "&la=" + left_aux + "&let=" + left_tip
 
 fuel_url = (f"&c={central}{tanks_left_url}&rm={right_main}&ra={right_aux}"
             f"&rt={right_tip}&c2={c2}&c3={c3}&x1={x1}&x2={x2}")
