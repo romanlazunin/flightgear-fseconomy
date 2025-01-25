@@ -29,3 +29,46 @@
     <rentedDry>true</rentedDry>
     <rentalPrice>80</rentalPrice>
 </response>
+
+<?xml version="1.0"?>
+<response>
+    <payloadWeight>462</payloadWeight>
+    <totalWeight>1857</totalWeight>
+    <registration>N-46689</registration>
+    <fuel>18.941685 0.0 0.0 0.0 0.0 0.0 0.0 18.790625 0.15106675 0.0 0.0 </fuel>
+    <equipment>7</equipment>
+    <leaseExpires>10800</leaseExpires>
+    <accounting>hour</accounting>
+    <rentedDry>true</rentedDry>
+    <rentalPrice>175</rentalPrice>
+    <assignment>
+    <from>15Z</from>
+    <to>AK31</to>
+    <cargo><![CDATA[1 Wrangell-St Elias Park Ranger]]></cargo>
+    <comment><![CDATA[]]></comment>
+    </assignment>
+    <assignment>
+    <from>15Z</from>
+    <to>AK31</to>
+    <cargo><![CDATA[1 Kennecott Mines Visitor]]></cargo>
+    <comment><![CDATA[]]></comment>
+    </assignment>
+    <assignment>
+    <from>15Z</from>
+    <to>AK31</to>
+    <cargo><![CDATA[1 Wrangell-St. Elias Hiker]]></cargo>
+    <comment><![CDATA[]]></comment>
+    </assignment>
+    <assignment>
+    <from>15Z</from>
+    <to>AK31</to>
+    <cargo><![CDATA[1 Wrangell-St. Elias Hiker]]></cargo>
+    <comment><![CDATA[]]></comment>
+    </assignment>
+    <assignment>
+    <from>15Z</from>
+    <to>AK31</to>
+    <cargo><![CDATA[1 Kennecott Mines Visitor]]></cargo>
+    <comment><![CDATA[]]></comment>
+    </assignment>
+</response>
