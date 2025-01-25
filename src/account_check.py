@@ -7,6 +7,8 @@ import os
 import urllib.parse
 import requests
 
+from utils import create_url
+
 HOST = "https://server.fseconomy.net/fsagentFSX?"
 
 USER = os.getenv("FSE_USER")
@@ -17,7 +19,7 @@ if PASSWORD:
 
 ACTION = "accountCheck"
 
-url = f"{HOST}user={USER}&pass={PASSWORD}&action={ACTION}"
+url = create_url(HOST, USER, PASSWORD, ACTION)
 
 try:
     response = requests.get(url, timeout=10)  # 10 seconds timeout
