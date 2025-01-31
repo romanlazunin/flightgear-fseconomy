@@ -1,0 +1,52 @@
+<?xml version="1.0"?><response><payloadWeight>2347</payloadWeight>
+<totalWeight>49815</totalWeight>
+<registration>TRA-05</registration>
+<fuel>0.0 0.0 910.0 1350.0 0.0 910.0 1350.0 0.0 0.0 189.99959 189.99959 </fuel>
+<equipment>7</equipment>
+<leaseExpires>18000</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>3000</rentalPrice>
+<assignment>
+<from>NZWS</from>
+<to>NZWG</to>
+<cargo><![CDATA[1 Greenstone Airways Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZWS</from>
+<to>NZWG</to>
+<cargo><![CDATA[1 Greenstone Airways Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZWS</from>
+<to>NZWG</to>
+<cargo><![CDATA[1 Greenstone Airways Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZWS</from>
+<to>NZWG</to>
+<cargo><![CDATA[1 Greenstone Airways Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZWS</from>
+<to>NZWG</to>
+<cargo><![CDATA[1 Greenstone Airways Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZWS</from>
+<to>NZWG</to>
+<cargo><![CDATA[1 Greenstone Airways Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZWS</from>
+<to>NZWG</to>
+<cargo><![CDATA[Cargo 1423kg]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>

@@ -1,0 +1,88 @@
+<?xml version="1.0"?><response><payloadWeight>1232</payloadWeight>
+<totalWeight>14982</totalWeight>
+<registration>OH-SVI</registration>
+<fuel>0.0 232.5 0.0 0.0 232.5 0.0 0.0 0.0 0.0 0.0 0.0 </fuel>
+<equipment>7</equipment>
+<leaseExpires>21600</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>1266</rentalPrice>
+<assignment>
+<from>UWGG</from>
+<to>UWKD</to>
+<cargo><![CDATA[1 &#1052;&#1101;&#1085;&#1076;&#1080;A&#1080;p_]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>UWGG</from>
+<to>UWKD</to>
+<cargo><![CDATA[1 &#1052;&#1101;&#1085;&#1076;&#1080;A&#1080;p_]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>UWGG</from>
+<to>UWKD</to>
+<cargo><![CDATA[1 &#1052;&#1101;&#1085;&#1076;&#1080;A&#1080;p_]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>UWGG</from>
+<to>UWKD</to>
+<cargo><![CDATA[1 &#1052;&#1101;&#1085;&#1076;&#1080;A&#1080;p_]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>UWGG</from>
+<to>UWKD</to>
+<cargo><![CDATA[1 &#1052;&#1101;&#1085;&#1076;&#1080;A&#1080;p_]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>UWGG</from>
+<to>UWKD</to>
+<cargo><![CDATA[1 &#1052;&#1101;&#1085;&#1076;&#1080;A&#1080;p_]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>UWGG</from>
+<to>UWKD</to>
+<cargo><![CDATA[1 &#1052;&#1101;&#1085;&#1076;&#1080;A&#1080;p_]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>UWGG</from>
+<to>UWKD</to>
+<cargo><![CDATA[1 &#1052;&#1101;&#1085;&#1076;&#1080;A&#1080;p_]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>UWGG</from>
+<to>UWKD</to>
+<cargo><![CDATA[1 &#1052;&#1101;&#1085;&#1076;&#1080;A&#1080;p_]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>UWGG</from>
+<to>UWKD</to>
+<cargo><![CDATA[1 &#1052;&#1101;&#1085;&#1076;&#1080;A&#1080;p_]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>UWGG</from>
+<to>UWKD</to>
+<cargo><![CDATA[1 &#1052;&#1101;&#1085;&#1076;&#1080;A&#1080;p_]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>UWGG</from>
+<to>UWKD</to>
+<cargo><![CDATA[1 &#1052;&#1101;&#1085;&#1076;&#1080;A&#1080;p_]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>UWGG</from>
+<to>UWKD</to>
+<cargo><![CDATA[1 &#1052;&#1101;&#1085;&#1076;&#1080;A&#1080;p_]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>

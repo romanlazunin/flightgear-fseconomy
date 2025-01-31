@@ -1,0 +1,52 @@
+<?xml version="1.0"?><response><payloadWeight>1675</payloadWeight>
+<totalWeight>49183</totalWeight>
+<registration>ZZ-JH5Y</registration>
+<fuel>0.0 0.0 1750.0 0.0 0.0 1750.0 0.0 0.0 0.0 948.39996 948.35 </fuel>
+<equipment>7</equipment>
+<leaseExpires>28800</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>5663</rentalPrice>
+<assignment>
+<from>NZ0A</from>
+<to>SAWB</to>
+<cargo><![CDATA[1 Quark Expeditions Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZ0A</from>
+<to>SAWB</to>
+<cargo><![CDATA[1 Quark Expeditions Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZ0A</from>
+<to>SAWB</to>
+<cargo><![CDATA[1 Quark Expeditions Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZ0A</from>
+<to>SAWB</to>
+<cargo><![CDATA[1 Quark Expeditions Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZ0A</from>
+<to>SAWB</to>
+<cargo><![CDATA[Cargo 205kg]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZ0A</from>
+<to>SAWB</to>
+<cargo><![CDATA[Cargo 177kg]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZ0A</from>
+<to>SAWB</to>
+<cargo><![CDATA[Cargo 215kg]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?><response><payloadWeight>154</payloadWeight>
+<totalWeight>16865</totalWeight>
+<registration>VH-NW6B</registration>
+<fuel>0.0 1080.0 0.0 0.0 1080.0 0.0 0.0 0.0 0.0 0.0 0.0 </fuel>
+<equipment>7</equipment>
+<leaseExpires>36000</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>800</rentalPrice>
+</response>

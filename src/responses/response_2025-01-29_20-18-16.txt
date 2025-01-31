@@ -1,0 +1,1 @@
+<?xml version="1.0"?><response><error>Catalina PBY is not compatible with your rented Consolidated PBY5 Catalina</error></response>

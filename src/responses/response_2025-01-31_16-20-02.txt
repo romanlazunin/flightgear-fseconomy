@@ -1,0 +1,94 @@
+<?xml version="1.0"?><response><payloadWeight>1694</payloadWeight>
+<totalWeight>15781</totalWeight>
+<registration>DQ-QSO</registration>
+<fuel>0.0 875.0 0.0 0.0 875.0 0.0 0.0 0.0 0.0 0.0 0.0 </fuel>
+<equipment>7</equipment>
+<leaseExpires>14400</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>658</rentalPrice>
+<assignment>
+<from>NZPG</from>
+<to>NZIR</to>
+<cargo><![CDATA[1 Jack F. Paulus Skiway Staff]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZPG</from>
+<to>NZIR</to>
+<cargo><![CDATA[1 Crated Husky]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZPG</from>
+<to>NZIR</to>
+<cargo><![CDATA[1 Otago University Researcher]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZPG</from>
+<to>NZIR</to>
+<cargo><![CDATA[2 Otago University Researcher]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZPG</from>
+<to>NZIR</to>
+<cargo><![CDATA[1 Polar Expedition Support]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZPG</from>
+<to>NZIR</to>
+<cargo><![CDATA[2 Jack F. Paulus Skiway Staff]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZPG</from>
+<to>NZIR</to>
+<cargo><![CDATA[1 Crated Husky]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZPG</from>
+<to>NZIR</to>
+<cargo><![CDATA[1 Otago University Researcher]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZPG</from>
+<to>NZIR</to>
+<cargo><![CDATA[1 Crated Husky]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZPG</from>
+<to>NZIR</to>
+<cargo><![CDATA[2 Polar Expedition Support]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZPG</from>
+<to>NZIR</to>
+<cargo><![CDATA[2 Otago University Researcher]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZPG</from>
+<to>NZIR</to>
+<cargo><![CDATA[1 Otago University Researcher]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZPG</from>
+<to>NZIR</to>
+<cargo><![CDATA[2 Jack F. Paulus Skiway Staff]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZPG</from>
+<to>NZIR</to>
+<cargo><![CDATA[1 Polar Expedition Support]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>

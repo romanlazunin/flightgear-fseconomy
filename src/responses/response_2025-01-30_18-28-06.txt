@@ -1,0 +1,106 @@
+<?xml version="1.0"?><response><payloadWeight>1682</payloadWeight>
+<totalWeight>49150</totalWeight>
+<registration>VH-OXO</registration>
+<fuel>0.0 0.0 910.0 1350.0 0.0 910.0 1350.0 0.0 0.0 189.99959 189.99959 </fuel>
+<equipment>7</equipment>
+<leaseExpires>18000</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>4345</rentalPrice>
+<assignment>
+<from>SAWB</from>
+<to>NZ0A</to>
+<cargo><![CDATA[1 Quark Expeditions Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>SAWB</from>
+<to>NZ0A</to>
+<cargo><![CDATA[1 Quark Expeditions Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>SAWB</from>
+<to>SAVD</to>
+<cargo><![CDATA[1 Tourist]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>SAWB</from>
+<to>SCRM</to>
+<cargo><![CDATA[1 Quark Expeditions Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>SAWB</from>
+<to>NZ0B</to>
+<cargo><![CDATA[1 Quark Expeditions Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>SAWB</from>
+<to>SCRM</to>
+<cargo><![CDATA[1 Quark Expeditions Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>SAWB</from>
+<to>SCRM</to>
+<cargo><![CDATA[1 Quark Expeditions Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>SAWB</from>
+<to>NZ0A</to>
+<cargo><![CDATA[1 Quark Expeditions Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>SAWB</from>
+<to>NZ0A</to>
+<cargo><![CDATA[1 Quark Expeditions Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>SAWB</from>
+<to>SCRM</to>
+<cargo><![CDATA[Cargo 1kg]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>SAWB</from>
+<to>NZ0A</to>
+<cargo><![CDATA[Cargo 1kg]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>SAWB</from>
+<to>SCRM</to>
+<cargo><![CDATA[Cargo 223kg]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>SAWB</from>
+<to>SCRM</to>
+<cargo><![CDATA[Cargo 63kg]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>SAWB</from>
+<to>SCRM</to>
+<cargo><![CDATA[Medical Supplies 73kg]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>SAWB</from>
+<to>SCRM</to>
+<cargo><![CDATA[Cargo 89kg]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>SAWB</from>
+<to>NZ0A</to>
+<cargo><![CDATA[1 Quark Expeditions Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>

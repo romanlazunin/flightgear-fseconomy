@@ -1,0 +1,22 @@
+<?xml version="1.0"?><response><payloadWeight>231</payloadWeight>
+<totalWeight>804</totalWeight>
+<registration>N-728KL</registration>
+<fuel>0.0 18.0 0.0 0.0 18.0 0.0 0.0 0.0 0.0 0.0 0.0 </fuel>
+<equipment>5</equipment>
+<leaseExpires>7200</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>42</rentalPrice>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[1 Crated Husky]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[1 Crated Husky]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?><response><payloadWeight>154</payloadWeight>
+<totalWeight>349</totalWeight>
+<registration>N884BH</registration>
+<fuel>10.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 </fuel>
+<equipment>7</equipment>
+<leaseExpires>14400</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>38</rentalPrice>
+<assignment>
+<from>NC26</from>
+<to>14A</to>
+<cargo><![CDATA[1 Very Lost Sailor &#9973;]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>

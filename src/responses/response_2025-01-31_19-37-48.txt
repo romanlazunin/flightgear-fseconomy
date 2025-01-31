@@ -1,0 +1,22 @@
+<?xml version="1.0"?><response><payloadWeight>308</payloadWeight>
+<totalWeight>6799</totalWeight>
+<registration>PR-LZK</registration>
+<fuel>180.0 0.0 75.0 0.0 0.0 75.0 0.0 0.0 0.0 0.0 0.0 </fuel>
+<equipment>7</equipment>
+<leaseExpires>14400</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>542</rentalPrice>
+<assignment>
+<from>SB2I</from>
+<to>SWVB</to>
+<cargo><![CDATA[1 Passageiro]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>SB2I</from>
+<to>SWVB</to>
+<cargo><![CDATA[1 Baixista]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>
