@@ -72,3 +72,726 @@
     <comment><![CDATA[]]></comment>
     </assignment>
 </response>
+
+<?xml version="1.0"?><response><payloadWeight>616</payloadWeight>    
+<totalWeight>1693</totalWeight>
+<registration>N-381RL</registration>
+<fuel>0.0 40.000004 0.0 0.0 40.000004 0.0 0.0 0.0 0.0 0.0 0.0 </fuel>
+<equipment>5</equipment>
+<leaseExpires>10800</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>193</rentalPrice>
+<assignment>
+<from>KGYR</from>
+<to>10AZ</to>
+<cargo><![CDATA[1 MSFS2020.it amateur meteorologist&#9748;]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>KGYR</from>
+<to>10AZ</to>
+<cargo><![CDATA[1 MSFS2020.it lonely hitchhiker &#128077;&#1279]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>KGYR</from>
+<to>10AZ</to>
+<cargo><![CDATA[1 MSFS2020.it amateur meteorologist&#9748;]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>KGYR</from>
+<to>10AZ</to>
+<cargo><![CDATA[1 MSFS2020.it snail eater &#128012;]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>KGYR</from>
+<to>10AZ</to>
+<cargo><![CDATA[1 MSFS2020.it lonely hitchhiker &#128077;&#1279]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>KGYR</from>
+<to>10AZ</to>
+<cargo><![CDATA[1 MSFS2020.it snail eater &#128012;]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>KGYR</from>
+<to>10AZ</to>
+<cargo><![CDATA[1 MSFS2020.it vegetarian hairdresser &#128135;]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>
+
+<?xml version="1.0"?><response><payloadWeight>1155</payloadWeight>
+<totalWeight>20064</totalWeight>
+<registration>DV385-KC-A</registration>
+<fuel>37.410694 480.0 137.0 0.0 460.0 137.0 0.0 27.182281 0.0 110.70336 110.70336 </fuel>
+<equipment>7</equipment>
+<leaseExpires>36000</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>900</rentalPrice>
+<assignment>
+<from>KCLM</from>
+<to>KLAS</to>
+<cargo><![CDATA[1 WASP Aviation KCLM (KLAS) Pass &#9992;]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>KCLM</from>
+<to>KLAS</to>
+<cargo><![CDATA[1 WASP Aviation KCLM (KLAS) Pass &#9992;]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>KCLM</from>
+<to>KLAS</to>
+<cargo><![CDATA[1 WASP Aviation KCLM (KLAS) Pass &#9992;]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>KCLM</from>
+<to>KLAS</to>
+<cargo><![CDATA[1 WASP Aviation KCLM (KLAS) Pass &#9992;]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>KCLM</from>
+<to>KLAS</to>
+<cargo><![CDATA[1 WASP Aviation KCLM (KLAS) Pass &#9992;]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>KCLM</from>
+<to>KLAS</to>
+<cargo><![CDATA[1 WASP Aviation KCLM (KLAS) Pass &#9992;]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>KCLM</from>
+<to>KLAS</to>
+<cargo><![CDATA[1 WASP Aviation KCLM (KLAS) Pass &#9992;]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>
+
+<?xml version="1.0"?><response><payloadWeight>308</payloadWeight>
+<totalWeight>6093</totalWeight>
+<registration>N-783CZ</registration>
+<fuel>0.0 174.62381 5.772687 0.0 174.62381 5.772687 0.0 0.0 0.0 0.0 0.0 </fuel>
+<equipment>7</equipment>
+<leaseExpires>14400</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>918</rentalPrice>
+<assignment>
+<from>UHMD</from>
+<to>PAGM</to>
+<cargo><![CDATA[2 Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>
+
+<?xml version="1.0"?><response><payloadWeight>308</payloadWeight>
+<totalWeight>2917</totalWeight>
+<registration>RA-15687</registration>
+<fuel>56.936455 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 </fuel>  
+UTC 14:52 15:10
+<equipment>7</equipment>
+<leaseExpires>14400</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>350</rentalPrice>
+<assignment>
+<from>EGEN</from>
+<to>EGER</to>
+<cargo><![CDATA[1 KB Air Shetlands Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>EGEN</from>
+<to>EGER</to>
+<cargo><![CDATA[1 KB Air Shetlands Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>EGEN</from>
+<to>EGER</to>
+<cargo><![CDATA[1 KB Air Shetlands Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>
+
+<?xml version="1.0"?><response><payloadWeight>1617</payloadWeight>
+<totalWeight>15129</totalWeight>
+<registration>DQ-QSO</registration>
+<fuel>0.0 767.9901 0.0 0.0 767.9901 0.0 0.0 0.0 0.0 0.0 0.0 </fuel>
+<equipment>7</equipment>
+<leaseExpires>14400</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>658</rentalPrice>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[1 Jack F. Paulus Skiway Staff]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[1 Jack F. Paulus Skiway Staff]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[1 Otago University Researcher]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[1 Crated Husky]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[1 Otago University Researcher]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[1 Helicopter Tech]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[1 Polar Expedition Support]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[2 Crated Huskys]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[2 Helicopter Tech]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[2 Crated Huskys]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[2 Crated Huskys]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[2 Otago University Researcher]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[1 Polar Expedition Support]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>
+
+<?xml version="1.0"?><response><payloadWeight>1617</payloadWeight>
+<totalWeight>12799</totalWeight>
+<registration>DQ-QSO</registration>
+<fuel>0.0 334.50027 0.0 0.0 334.50027 0.0 0.0 0.0 0.0 0.0 0.0 </fuel>
+<equipment>7</equipment>
+<leaseExpires>14400</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>658</rentalPrice>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[1 Jack F. Paulus Skiway Staff]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[1 Jack F. Paulus Skiway Staff]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[1 Otago University Researcher]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[1 Crated Husky]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[1 Otago University Researcher]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[1 Helicopter Tech]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[1 Polar Expedition Support]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[2 Crated Huskys]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[2 Helicopter Tech]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[2 Crated Huskys]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[2 Crated Huskys]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[2 Otago University Researcher]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[1 Polar Expedition Support]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>
+
+<?xml version="1.0"?><response><payloadWeight>1617</payloadWeight>   
+<totalWeight>14527</totalWeight>
+<registration>DQ-QSO</registration>
+<fuel>0.0 655.99976 0.0 0.0 655.99976 0.0 0.0 0.0 0.0 0.0 0.0 </fuel>
+<equipment>7</equipment>
+<leaseExpires>14400</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>658</rentalPrice>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[1 Jack F. Paulus Skiway Staff]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[1 Jack F. Paulus Skiway Staff]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[1 Otago University Researcher]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[1 Crated Husky]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[1 Otago University Researcher]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[1 Helicopter Tech]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[1 Polar Expedition Support]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[2 Crated Huskys]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[2 Helicopter Tech]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[2 Crated Huskys]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[2 Crated Huskys]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[2 Otago University Researcher]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[1 Polar Expedition Support]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>
+
+
+<?xml version="1.0"?><response><payloadWeight>77</payloadWeight>
+<totalWeight>2811</totalWeight>
+<registration>ZZ-DY99</registration>
+<fuel>80.999916 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 </fuel> 
+<equipment>6</equipment>
+<leaseExpires>18000</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>311</rentalPrice>
+</response>
+
+<?xml version="1.0"?><response><payloadWeight>2079</payloadWeight>   
+<totalWeight>13886</totalWeight>
+<registration>DQ-QSO</registration>
+<fuel>0.0 450.89975 0.0 0.0 450.89975 0.0 0.0 0.0 0.0 0.0 0.0 </fuel>
+<equipment>7</equipment>
+<leaseExpires>14400</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>658</rentalPrice>
+<assignment>
+<from>NZPG</from>
+<to>NZIR</to>
+<cargo><![CDATA[1 Jack F. Paulus Skiway Staff]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZPG</from>
+<to>NZIR</to>
+<cargo><![CDATA[2 Crated Huskys]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZPG</from>
+<to>NZIR</to>
+<cargo><![CDATA[2 Crated Huskys]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZPG</from>
+<to>NZIR</to>
+<cargo><![CDATA[2 Helicopter Tech]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZPG</from>
+<to>NZIR</to>
+<cargo><![CDATA[1 Otago University Researcher]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZPG</from>
+<to>NZIR</to>
+<cargo><![CDATA[1 Polar Expedition Support]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZPG</from>
+<to>NZIR</to>
+<cargo><![CDATA[1 Crated Husky]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZPG</from>
+<to>NZIR</to>
+<cargo><![CDATA[2 Crated Huskys]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZPG</from>
+<to>NZIR</to>
+<cargo><![CDATA[1 Helicopter Tech]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZPG</from>
+<to>NZIR</to>
+<cargo><![CDATA[1 Polar Expedition Support]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZPG</from>
+<to>NZIR</to>
+<cargo><![CDATA[1 Jack F. Paulus Skiway Staff]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZPG</from>
+<to>NZIR</to>
+<cargo><![CDATA[2 Jack F. Paulus Skiway Staff]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZPG</from>
+<to>NZIR</to>
+<cargo><![CDATA[2 Otago University Researcher]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZPG</from>
+<to>NZIR</to>
+<cargo><![CDATA[2 Jack F. Paulus Skiway Staff]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZPG</from>
+<to>NZIR</to>
+<cargo><![CDATA[1 Crated Husky]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZPG</from>
+<to>NZIR</to>
+<cargo><![CDATA[2 Polar Expedition Support]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>
+
+<?xml version="1.0"?><response><payloadWeight>1232</payloadWeight>   
+<totalWeight>12986</totalWeight>
+<registration>DQ-QSO</registration>
+<fuel>0.0 440.89935 0.0 0.0 440.89935 0.0 0.0 0.0 0.0 0.0 0.0 </fuel>
+<equipment>7</equipment>
+<leaseExpires>14400</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>658</rentalPrice>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[1 Helicopter Tech]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[1 Helicopter Tech]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[1 Helicopter Tech]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[1 Jack F. Paulus Skiway Staff]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[1 Otago University Researcher]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[2 Polar Expedition Support]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[2 Crated Huskys]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[1 Jack F. Paulus Skiway Staff]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[2 Jack F. Paulus Skiway Staff]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>NZIR</from>
+<to>NZPG</to>
+<cargo><![CDATA[1 Helicopter Tech]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>
+
+<?xml version="1.0"?><response><payloadWeight>2079</payloadWeight>
+<totalWeight>13814</totalWeight>
+<registration>N-886VP</registration>
+<fuel>0.0 437.5 0.0 0.0 437.5 0.0 0.0 0.0 0.0 0.0 0.0 </fuel>     
+<equipment>0</equipment>
+<leaseExpires>14400</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>427</rentalPrice>
+<assignment>
+<from>M14</from>
+<to>11MN</to>
+<cargo><![CDATA[1 ScrogginAir M14 Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>M14</from>
+<to>11MN</to>
+<cargo><![CDATA[2 ScrogginAir M14 Passengers]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>M14</from>
+<to>11MN</to>
+<cargo><![CDATA[2 Scroggin Air 11MN Passengers]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>M14</from>
+<to>11MN</to>
+<cargo><![CDATA[2 ScrogginAir M14 Passengers]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>M14</from>
+<to>11MN</to>
+<cargo><![CDATA[1 Scroggin Air 11MN Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>M14</from>
+<to>11MN</to>
+<cargo><![CDATA[1 ScrogginAir M14 Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>M14</from>
+<to>11MN</to>
+<cargo><![CDATA[2 Scroggin Air 11MN Passengers]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>M14</from>
+<to>11MN</to>
+<cargo><![CDATA[1 Scroggin Air 11MN Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>M14</from>
+<to>11MN</to>
+<cargo><![CDATA[1 Scroggin Air 11MN Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>M14</from>
+<to>11MN</to>
+<cargo><![CDATA[1 ScrogginAir M14 Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>M14</from>
+<to>11MN</to>
+<cargo><![CDATA[2 ScrogginAir M14 Passengers]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>M14</from>
+<to>11MN</to>
+<cargo><![CDATA[2 Scroggin Air 11MN Passengers]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>M14</from>
+<to>11MN</to>
+<cargo><![CDATA[1 ScrogginAir M14 Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>M14</from>
+<to>11MN</to>
+<cargo><![CDATA[1 Scroggin Air 11MN Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>M14</from>
+<to>11MN</to>
+<cargo><![CDATA[1 Scroggin Air 11MN Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>M14</from>
+<to>11MN</to>
+<cargo><![CDATA[2 ScrogginAir M14 Passengers]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>M14</from>
+<to>11MN</to>
+<cargo><![CDATA[1 Scroggin Air 11MN Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>
