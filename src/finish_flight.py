@@ -18,7 +18,7 @@ if PASSWORD:
 ACTION = "arrive"
 
 flight_time, lat, lon, central, left_main, left_aux, left_tip, right_main, right_aux, right_tip, c2, c3, x1, x2 = sys.argv[1:15]
-# python finish_flight.py 840 61.40733306707077 -143.0400043740288 18.941685 0.0 0.0 0.0 0.0 0.0 0.0 14.5 0.15106675 0.0 0.0
+# python finish_flight.py 900 -77.85042876808599 166.4606189903415 0.0 100.5 0.0 0.0 100.5 0.0 0.0 0.0 0.0 0.0 0.0
 
 lat_lon = "&lat=" + lat + "&lon=" + lon
 # fuel
