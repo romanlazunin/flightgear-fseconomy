@@ -3,6 +3,8 @@ import os
 import requests
 import urllib.parse
 
+from datetime import datetime
+
 HOST = "https://server.fseconomy.net/fsagentFSX?"
 
 USER = os.getenv("FSE_USER")
@@ -39,6 +41,17 @@ def main():
         print("Response Status:", response.status_code)
         print(response.text)
 
+        # Generate filename with current date and time
+        timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+        directory = "responses"
+        os.makedirs(directory, exist_ok=True)
+        filename = os.path.join(directory, f"response_{timestamp}.txt")
+
+        # Save response to file
+        with open(filename, "w", encoding="utf-8") as file:
+            file.write(response.text)
+
+        print(f"Response saved to {filename}")
 
 if __name__ == "__main__":
     main()
