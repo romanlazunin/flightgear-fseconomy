@@ -2,7 +2,7 @@ import telnetlib
 import re
 
 HOST = "localhost"
-PORT = 5401  # Default Telnet port for FlightGear
+PORT = 5401
 
 CRLF = '\r\n'
 
@@ -75,9 +75,45 @@ if __name__ == "__main__":
     try:
         client.connect()
         latitude = client.read_property("/position/latitude-deg")
-        print(f"Latitude: {latitude}")
         longitude = client.read_property("/position/longitude-deg")
-        print(f"Longitude: {longitude}")
+        time = client.read_property("/sim/time/elapsed-sec")
+        description = client.read_property("sim/description")
+
+        client.tn.write(b"ls /consumables/fuel/\n")
+        response = client.tn.read_until(b"\n", timeout=2).decode()
+
+        # Count tanks based on response
+        tanks = [line for line in response.splitlines() if "tank" in line]
+        num_tanks = len(tanks)
+
+        print(f"Tanks count: {num_tanks}")
+
+        # tanks = {}
+        # for i in range(8):
+        #     raw_value = client.read_property(f"/consumables/fuel/tank[{i}]/level-gal_us")
+        #     tanks[i] = raw_value.split('=')[1].strip().replace("'", "").split()[0]
+
+        # for i, level in tanks.items():
+        #     print(f"Tank {i}: {level}")
+
+        # print(" ".join(str(level) for level in tanks.values()))
+
+        time = time.split('=')[1].strip().replace("'", "").split()[0]
+        latitude = latitude.split('=')[1].strip().replace("'", "").split()[0]
+        longitude = longitude.split('=')[1].strip().replace("'", "").split()[0]
+        description = description.split('=')[1].strip().split("(")[0].strip()
+        print(f"Time: {time}")
+
+        print(f'py .\\start_flight.py {latitude} {longitude} {description}')
+
+        callsign = client.read_property("/sim/multiplay/callsign").split('=')[1].strip()
+        print(f"Callsign: {callsign}")
+
+        client.write_property("/sim/multiplay/callsign", "")
+
+        callsign = client.read_property("/sim/multiplay/callsign").split('=')[1].strip()
+        print(f"Callsign: {callsign}")
+
 
         # print("Listing properties:")
         # properties = client.list_properties()
