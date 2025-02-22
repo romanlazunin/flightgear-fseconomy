@@ -1,0 +1,28 @@
+<?xml version="1.0"?><response><payloadWeight>319</payloadWeight>
+<totalWeight>1140</totalWeight>
+<registration>N-465CI</registration>
+<fuel>0.0 13.56507 0.0 0.0 13.56507 0.0 0.0 0.0 0.0 0.0 0.0 </fuel>
+<equipment>5</equipment>
+<leaseExpires>18000</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>94</rentalPrice>
+<assignment>
+<from>CYXT</from>
+<to>PANT</to>
+<cargo><![CDATA[1 Crate Assorted Ammo]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>CYXT</from>
+<to>PANT</to>
+<cargo><![CDATA[Cargo 88kg]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>CYXT</from>
+<to>PANT</to>
+<cargo><![CDATA[1 Hiker]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>

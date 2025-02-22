@@ -1,0 +1,16 @@
+<?xml version="1.0"?><response><payloadWeight>154</payloadWeight>
+<totalWeight>2090</totalWeight>
+<registration>ZK-RFS</registration>
+<fuel>13.290004 0.0 0.0 0.0 0.0 0.0 0.0 32.00001 0.0 0.0 0.0 </fuel>
+<equipment>0</equipment>
+<leaseExpires>18000</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>69</rentalPrice>
+<assignment>
+<from>NZCX</from>
+<to>NZAG</to>
+<cargo><![CDATA[1 Coromandel Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>

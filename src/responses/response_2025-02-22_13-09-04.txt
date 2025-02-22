@@ -1,0 +1,10 @@
+<?xml version="1.0"?><response><payloadWeight>77</payloadWeight>
+<totalWeight>419</totalWeight>
+<registration>N-449AU</registration>
+<fuel>0.0 9.0 0.0 0.0 9.0 0.0 0.0 0.0 0.0 0.0 0.0 </fuel>
+<equipment>0</equipment>
+<leaseExpires>21600</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>41</rentalPrice>
+</response>

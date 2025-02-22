@@ -1,0 +1,22 @@
+<?xml version="1.0"?><response><payloadWeight>7623</payloadWeight>
+<totalWeight>63937</totalWeight>
+<registration>N-204UU</registration>
+<fuel>0.0 2004.0 571.999 0.0 2004.0 571.999 0.0 0.0 0.0 0.0 0.0 </fuel>
+<equipment>7</equipment>
+<leaseExpires>36000</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>6766</rentalPrice>
+<assignment>
+<from>FMEE</from>
+<to>FMMA</to>
+<cargo><![CDATA[56 Passengers]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>FMEE</from>
+<to>FMMA</to>
+<cargo><![CDATA[33 Passengers]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>

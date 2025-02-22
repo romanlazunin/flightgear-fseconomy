@@ -1,0 +1,18 @@
+<?xml version="1.0"?><response><payloadWeight>214</payloadWeight>
+<totalWeight>1465</totalWeight>
+<registration>N-501YO</registration>
+<fuel>0.0 48.0 0.0 0.0 48.0 0.0 0.0 0.0 0.0 0.0 0.0 </fuel>
+55.8
+<equipment>7</equipment>
+<leaseExpires>18000</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>192</rentalPrice>
+<assignment>
+<from>PASA</from>
+<to>PAGM</to>
+<cargo><![CDATA[Cargo 137kg]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>
+

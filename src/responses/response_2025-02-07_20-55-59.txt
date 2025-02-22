@@ -1,0 +1,70 @@
+<?xml version="1.0"?><response><payloadWeight>1312</payloadWeight>
+<totalWeight>5184</totalWeight>
+<registration>NCC-1701-T</registration>
+<fuel>95.3604 0.0 0.0 9.640905 0.0 0.0 9.640905 111.357796 0.0 0.0 0.0 </fuel>
+<equipment>7</equipment>
+<leaseExpires>36000</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>750</rentalPrice>
+<assignment>
+<from>TNCE</from>
+<to>TJSJ</to>
+<cargo><![CDATA[1 &#9973; Son of a Son of a Sailor &#9973;]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>TNCE</from>
+<to>TJSJ</to>
+<cargo><![CDATA[1 &#129424; Shrimp beginning to Boil &#129424;]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>TNCE</from>
+<to>TJNR</to>
+<cargo><![CDATA[3 Passengers]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>TNCE</from>
+<to>TUPG</to>
+<cargo><![CDATA[Cargo 25kg]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>TNCE</from>
+<to>TJSJ</to>
+<cargo><![CDATA[1 &#127958; Margaritaville Beach Umbrella &#127]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>TNCE</from>
+<to>TJSJ</to>
+<cargo><![CDATA[1 &#127958; Margaritaville Beach Umbrella &#127]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>TNCE</from>
+<to>TQPF</to>
+<cargo><![CDATA[1 Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>TNCE</from>
+<to>ABO</to>
+<cargo><![CDATA[Cargo 202kg]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>TNCE</from>
+<to>MDPC</to>
+<cargo><![CDATA[Cargo 182kg]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>TNCE</from>
+<to>TFFG</to>
+<cargo><![CDATA[Cargo 133kg]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>

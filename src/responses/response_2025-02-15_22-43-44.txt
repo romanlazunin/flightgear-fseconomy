@@ -1,0 +1,22 @@
+<?xml version="1.0"?><response><payloadWeight>231</payloadWeight>
+<totalWeight>1704</totalWeight>
+<registration>N-728BJ</registration>
+<fuel>0.0 54.0 0.0 0.0 54.0 0.0 0.0 0.0 0.0 0.0 0.0 </fuel>
+<equipment>7</equipment>
+<leaseExpires>14400</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>154</rentalPrice>
+<assignment>
+<from>14A</from>
+<to>N92</to>
+<cargo><![CDATA[1 Aircraft Mechanic]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>14A</from>
+<to>N92</to>
+<cargo><![CDATA[1 Drunk Bush Pilot]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>

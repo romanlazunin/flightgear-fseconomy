@@ -1,0 +1,1 @@
+<?xml version="1.0"?><response><error>Britten-Norman BN-2A-26 Islander is not compatible with your rented Britten-Norman BN-2B Islander</error></response>

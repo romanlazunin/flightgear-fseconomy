@@ -1,0 +1,22 @@
+<?xml version="1.0"?><response><payloadWeight>231</payloadWeight>
+<totalWeight>1661</totalWeight>
+<registration>G-LADI</registration>
+<fuel>0.0 0.0 15.0 15.0 0.0 15.0 15.0 0.0 0.0 27.0 27.0 </fuel>
+<equipment>7</equipment>
+<leaseExpires>14400</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>144</rentalPrice>
+<assignment>
+<from>EGEW</from>
+<to>EGEP</to>
+<cargo><![CDATA[1 Viking Enthusiasts]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>EGEW</from>
+<to>EGEP</to>
+<cargo><![CDATA[1 Farmers]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>

@@ -1,0 +1,1 @@
+<?xml version="1.0"?><response><error>de Havilland Canada DHC-6-300 Twin Otter is not compatible with your rented DeHavilland DHC-6 300 Twin Otter (Aerosoft Extended)</error></response>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?><response><payloadWeight>77</payloadWeight>
+<totalWeight>680</totalWeight>
+<registration>G-ZNQQ</registration>
+<fuel>0.0 15.0 0.0 0.0 15.0 0.0 0.0 0.0 0.0 0.0 0.0 </fuel>
+<equipment>0</equipment>
+<leaseExpires>10800</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>70</rentalPrice>
+</response>

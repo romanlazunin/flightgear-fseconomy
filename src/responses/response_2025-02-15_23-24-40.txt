@@ -1,0 +1,46 @@
+<?xml version="1.0"?><response><payloadWeight>539</payloadWeight>
+<totalWeight>2087</totalWeight>
+<registration>N-374US</registration>
+<fuel>35.0 0.0 0.0 0.0 0.0 0.0 0.0 35.0 25.0 0.0 0.0 </fuel>
+<equipment>7</equipment>
+<leaseExpires>10800</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>261</rentalPrice>
+<assignment>
+<from>14A</from>
+<to>NC05</to>
+<cargo><![CDATA[1 Lake Norman Flying Club Member]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>14A</from>
+<to>NC05</to>
+<cargo><![CDATA[1 Lake Norman Flying Club Member]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>14A</from>
+<to>NC05</to>
+<cargo><![CDATA[1 Lake Norman Resident]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>14A</from>
+<to>NC05</to>
+<cargo><![CDATA[1 Lake Norman Flying Club Member]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>14A</from>
+<to>NC05</to>
+<cargo><![CDATA[1 Lake Norman Resident]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>14A</from>
+<to>NC05</to>
+<cargo><![CDATA[1 Lake Norman Flying Club Member]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>

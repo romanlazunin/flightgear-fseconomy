@@ -1,0 +1,16 @@
+<?xml version="1.0"?><response><payloadWeight>154</payloadWeight>
+<totalWeight>494</totalWeight>
+<registration>CF-VMC</registration>
+<fuel>12.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 </fuel>
+<equipment>0</equipment>
+<leaseExpires>18000</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>40</rentalPrice>
+<assignment>
+<from>CAG3</from>
+<to>CAG4</to>
+<cargo><![CDATA[1 Chilko Lake Lodge Supply Crate]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>

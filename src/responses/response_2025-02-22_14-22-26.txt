@@ -1,0 +1,16 @@
+<?xml version="1.0"?><response><payloadWeight>154</payloadWeight>
+<totalWeight>493</totalWeight>
+<registration>N-449AU</registration>
+<fuel>0.0 8.399997 0.0 0.0 8.399997 0.0 0.0 0.0 0.0 0.0 0.0 </fuel>
+<equipment>0</equipment>
+<leaseExpires>21600</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>41</rentalPrice>
+<assignment>
+<from>SKPB</from>
+<to>4GE2</to>
+<cargo><![CDATA[1 Tourist]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>

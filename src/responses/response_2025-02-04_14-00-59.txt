@@ -1,0 +1,40 @@
+<?xml version="1.0"?><response><payloadWeight>462</payloadWeight>
+<totalWeight>2752</totalWeight>
+<registration>EI-AYN</registration>
+<fuel>0.0 68.0 0.0 0.0 68.0 0.0 0.0 0.0 0.0 0.0 0.0 </fuel>
+<equipment>7</equipment>
+<leaseExpires>36000</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>250</rentalPrice>
+<assignment>
+<from>EGEP</from>
+<to>EGEN</to>
+<cargo><![CDATA[1 KB Air Shetlands Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>EGEP</from>
+<to>EGEN</to>
+<cargo><![CDATA[1 KB Air Shetlands Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>EGEP</from>
+<to>EGEN</to>
+<cargo><![CDATA[1 KB Air Shetlands Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>EGEP</from>
+<to>EGEN</to>
+<cargo><![CDATA[1 KB Air Shetlands Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>EGEP</from>
+<to>EGEN</to>
+<cargo><![CDATA[1 KB Air Shetlands Passenger]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>

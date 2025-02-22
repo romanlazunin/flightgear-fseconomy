@@ -1,0 +1,1 @@
+<?xml version="1.0"?><response><error>Cessna 172P Skyhawk is not compatible with your rented Cessna 172 Skyhawk</error></response>

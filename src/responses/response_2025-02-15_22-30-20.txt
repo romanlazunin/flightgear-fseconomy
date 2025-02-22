@@ -1,0 +1,22 @@
+<?xml version="1.0"?><response><payloadWeight>231</payloadWeight>
+<totalWeight>1299</totalWeight>
+<registration>N-482LQ</registration>
+<fuel>0.0 46.0 0.0 0.0 46.0 0.0 0.0 0.0 0.0 0.0 0.0 </fuel>
+<equipment>7</equipment>
+<leaseExpires>25200</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>114</rentalPrice>
+<assignment>
+<from>14A</from>
+<to>6NC1</to>
+<cargo><![CDATA[1 Quite Polite T-Rex &#129430;]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>14A</from>
+<to>6NC1</to>
+<cargo><![CDATA[1 Lake Susan Canoeist &#128758;]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>

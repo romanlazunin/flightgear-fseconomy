@@ -1,0 +1,16 @@
+<?xml version="1.0"?><response><payloadWeight>276</payloadWeight>
+<totalWeight>1131</totalWeight>
+<registration>D1703J</registration>
+<fuel>0.0 20.000008 0.0 0.0 20.000008 0.0 0.0 0.0 0.0 0.0 0.0 </fuel>
+<equipment>7</equipment>
+<leaseExpires>36000</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>79</rentalPrice>
+<assignment>
+<from>ESSA</from>
+<to>ESSZ</to>
+<cargo><![CDATA[Cargo 199kg]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>

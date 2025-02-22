@@ -1,0 +1,16 @@
+<?xml version="1.0"?><response><payloadWeight>154</payloadWeight>
+<totalWeight>753</totalWeight>
+<registration>G-ZNQQ</registration>
+<fuel>0.0 14.313885 0.0 0.0 14.313885 0.0 0.0 0.0 0.0 0.0 0.0 </fuel>
+<equipment>0</equipment>
+<leaseExpires>10800</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>70</rentalPrice>
+<assignment>
+<from>FL77</from>
+<to>16FA</to>
+<cargo><![CDATA[1 Sight seeker]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>

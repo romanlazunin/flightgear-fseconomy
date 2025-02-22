@@ -1,0 +1,28 @@
+<?xml version="1.0"?><response><payloadWeight>308</payloadWeight>
+<totalWeight>2313</totalWeight>
+<registration>N-546JQ</registration>
+<fuel>0.0 94.0 0.0 0.0 94.0 0.0 0.0 0.0 0.0 0.0 0.0 </fuel>
+<equipment>0</equipment>
+<leaseExpires>10800</leaseExpires>
+<accounting>hour</accounting>
+<rentedDry>true</rentedDry>
+<rentalPrice>180</rentalPrice>
+<assignment>
+<from>0TS2</from>
+<to>KAFW</to>
+<cargo><![CDATA[1 Genesis Passenger (0TS2)]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>0TS2</from>
+<to>KAFW</to>
+<cargo><![CDATA[1 Genesis Passenger (0TS2)]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+<assignment>
+<from>0TS2</from>
+<to>KAFW</to>
+<cargo><![CDATA[1 Genesis Passenger (0TS2)]]></cargo>
+<comment><![CDATA[]]></comment>
+</assignment>
+</response>
