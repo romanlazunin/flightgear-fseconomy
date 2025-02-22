@@ -79,46 +79,63 @@ if __name__ == "__main__":
         time = client.read_property("/sim/time/elapsed-sec")
         description = client.read_property("sim/description")
 
-        client.tn.write(b"ls /consumables/fuel/\n")
-        response = client.tn.read_until(b"\n", timeout=2).decode()
+        # client._putcmd("ls /consumables")
+        # tanks = client._getresp()
+        # for tank in tanks:
+        #     print(tank)
+
+        # client.tn.write(b"ls /consumables/fuel\n")
+        # response = client.tn.read_until(b"\n", timeout=4).decode()
+        # print(response)
+
+        # print("Listing properties:")
+        # properties = client.list_properties()
+        # for prop in properties:
+        #     print(prop)
 
         # Count tanks based on response
-        tanks = [line for line in response.splitlines() if "tank" in line]
-        num_tanks = len(tanks)
+        # tanks = [line for line in response.splitlines() if "tank" in line]
+        # num_tanks = len(tanks)
 
-        print(f"Tanks count: {num_tanks}")
+        # print(f"Tanks count: {num_tanks}")
 
         # tanks = {}
         # for i in range(8):
         #     raw_value = client.read_property(f"/consumables/fuel/tank[{i}]/level-gal_us")
         #     tanks[i] = raw_value.split('=')[1].strip().replace("'", "").split()[0]
+        #     print(f"Tank {i}: {level}")
 
         # for i, level in tanks.items():
-        #     print(f"Tank {i}: {level}")
+        #     print(f"Tank {i}: {tanks[i]}")
 
         # print(" ".join(str(level) for level in tanks.values()))
 
         time = time.split('=')[1].strip().replace("'", "").split()[0]
         latitude = latitude.split('=')[1].strip().replace("'", "").split()[0]
         longitude = longitude.split('=')[1].strip().replace("'", "").split()[0]
-        description = description.split('=')[1].strip().split("(")[0].strip()
+        description = description.split('=')[1].strip().split("(")[0].replace("'", "").strip()
         print(f"Time: {time}")
 
-        print(f'py .\\start_flight.py {latitude} {longitude} {description}')
+        print(f"py .\\start_flight.py {latitude} {longitude} '{description}'")
 
-        callsign = client.read_property("/sim/multiplay/callsign").split('=')[1].strip()
-        print(f"Callsign: {callsign}")
+        def read_property(client, property_path):
+            raw_value = client.read_property(property_path)
+            cleaned_value = raw_value.replace("/> ", "").split('=')[1].split("(")[0].replace("'", "").strip()
+            print(f"{property_path}: {cleaned_value}")
+            return cleaned_value
 
-        client.write_property("/sim/multiplay/callsign", "")
-
-        callsign = client.read_property("/sim/multiplay/callsign").split('=')[1].strip()
-        print(f"Callsign: {callsign}")
-
+        fuel_gal_us = read_property(client, "/consumables/fuel/total-fuel-gal_us")
+        callsign = read_property(client, "/sim/multiplay/callsign")
+        tank = read_property(client, "/consumables/fuel/tank/level-gal_us")
+        tank1 = read_property(client, "/consumables/fuel/tank[1]/level-gal_us")
+        tank2 = read_property(client, "/consumables/fuel/tank[2]/level-gal_us")
+        tank3 = read_property(client, "/consumables/fuel/tank[3]/level-gal_us")
 
         # print("Listing properties:")
         # properties = client.list_properties()
         # for prop in properties:
         #     print(prop)
+
     except Exception as e:
         print(f"Error: {e}")
     finally:
