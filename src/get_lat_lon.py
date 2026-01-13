@@ -1,8 +1,10 @@
-import telnetlib
+import asyncio
+import telnetlib3
 import re
 
 HOST = "localhost"
-PORT = 5401
+# PORT = 5401
+PORT = 5501
 
 CRLF = '\r\n'
 
@@ -11,73 +13,149 @@ class FlightGearTelnetClient:
     def __init__(self, host, port):
         self.host = host
         self.port = port
-        self.tn = None
+        self.reader = None
+        self.writer = None
         self.prompt = [re.compile(rb'/[^>]*> ')]
-        self.timeout = 5
+        self.timeout = 10
 
     def connect(self):
+        raise RuntimeError("connect() is async; use 'await client.connect()' or run via asyncio")
+
+    async def aconnect(self):
         try:
-            self.tn = telnetlib.Telnet(self.host, self.port, timeout=self.timeout)
+            self.reader, self.writer = await telnetlib3.open_connection(self.host, self.port)
         except Exception as e:
             raise ConnectionError(f"Failed to connect to {self.host}:{self.port} - {e}")
 
-    def _putcmd(self, cmd):
-        if not self.tn:
+    async def _putcmd(self, cmd):
+        if not self.writer:
             raise ConnectionError("Not connected to the server")
         cmd = cmd + CRLF
-        self.tn.write(cmd.encode('utf-8'))
-
-    def _getresp(self):
-        if not self.tn:
-            raise ConnectionError("Not connected to the server")
-        response = b""
-        while True:
-            index, match, data = self.tn.expect(self.prompt, self.timeout)
-            response += data
-            if index == 0:  # End of response detected
-                break
-            if index == -1:
-                raise TimeoutError("Response timeout exceeded")
-        # Decode and return response without the prompt
-        return response.decode("utf-8").split("\n")[:-1]
-
-    def read_property(self, property_name):
+        # Try writing text first; if writer expects bytes, fall back to encoded bytes
         try:
-            self._putcmd(f"get {property_name}")
-            response = self.tn.read_until(b"\n", timeout=self.timeout).decode("utf-8").strip()
-            return response
+            self.writer.write(cmd)
+        except TypeError:
+            self.writer.write(cmd.encode("utf-8"))
+        try:
+            await self.writer.drain()
+        except Exception:
+            # Some writer implementations may not support drain
+            await asyncio.sleep(0)
+
+    async def _getresp(self):
+        if not self.reader:
+            raise ConnectionError("Not connected to the server")
+        # Read up to the next newline; callers may call repeatedly if needed
+        # Try bytes delimiter first, fall back to text delimiter if needed
+        try:
+            data = await self.reader.readuntil(b"\n")
+        except TypeError:
+            data = await self.reader.readuntil("\n")
+
+        if isinstance(data, bytes):
+            text = data.decode("utf-8", errors="replace")
+        else:
+            text = data
+        return text.split("\n")[:-1]
+
+    async def read_property(self, property_name):
+        try:
+            await self._putcmd(f"get {property_name}")
+            try:
+                response = await self.reader.readuntil(b"\n")
+            except TypeError:
+                response = await self.reader.readuntil("\n")
+
+            if isinstance(response, bytes):
+                return response.decode("utf-8", errors="replace").strip()
+            return response.strip()
         except Exception as e:
             raise RuntimeError(f"Failed to read property '{property_name}' - {e}")
 
-    def write_property(self, property_name, value):
+    async def write_property(self, property_name, value):
         try:
-            self._putcmd(f"set {property_name} {value}")
+            await self._putcmd(f"set {property_name} {value}")
         except Exception as e:
             raise RuntimeError(f"Failed to write property '{property_name}' - {e}")
 
-    def list_properties(self):
+    async def list_properties(self):
         try:
-            self._putcmd("ls")
-            return self._getresp()
+            await self._putcmd("ls")
+            return await self._getresp()
         except Exception as e:
             raise RuntimeError(f"Failed to list properties - {e}")
 
-    def disconnect(self):
-        if self.tn:
-            self._putcmd("quit")
-            self.tn.close()
-            self.tn = None
+    async def disconnect(self):
+        if self.writer:
+            try:
+                await self._putcmd("quit")
+            except Exception:
+                pass
+            try:
+                self.writer.close()
+                await self.writer.wait_closed()
+            except Exception:
+                pass
+            self.reader = None
+            self.writer = None
 
 
 # Example usage
 if __name__ == "__main__":
-    client = FlightGearTelnetClient(HOST, PORT)
-    try:
-        client.connect()
-        latitude = client.read_property("/position/latitude-deg")
-        longitude = client.read_property("/position/longitude-deg")
-        time = client.read_property("/sim/time/elapsed-sec")
-        description = client.read_property("sim/description")
+    async def main():
+        client = FlightGearTelnetClient(HOST, PORT)
+        try:
+            await client.aconnect()
+
+            # print("Listing properties:")
+            # properties = await client.list_properties()
+            # for prop in properties:
+            #     print(prop)
+
+            latitude = await client.read_property("/position/latitude-deg")
+            longitude = await client.read_property("/position/longitude-deg")
+            time = await client.read_property("/sim/time/elapsed-sec")
+            description = await client.read_property("sim/description")
+            callsign = await client.read_property("/sim/multiplay/callsign")
+
+            fuel_gal_us = await client.read_property("/consumables/fuel/total-fuel-gal_us")
+
+
+            clean_latitude = latitude.replace("/> ", "").split('=')[1].split("(")[0].replace("'", "").strip()
+            clean_longitude = longitude.replace("/> ", "").split('=')[1].split("(")[0].replace("'", "").strip()
+            clean_description = description.replace("/> ", "").split('=')[1].split("(")[0].replace("'", "").strip()
+            clean_callsign = callsign.replace("/> ", "").split('=')[1].split("(")[0].replace("'", "").strip()
+            clean_time = time.replace("/> ", "").split('=')[1].split("(")[0].replace("'", "").strip()
+            clean_fuel = fuel_gal_us.replace("/> ", "").split('=')[1].split("(")[0].replace("'", "").strip()
+
+            print(f"Latitude: {clean_latitude}")
+            print(f"Longitude: {clean_longitude}")
+            print(f"Time elapsed: {clean_time}")
+            print(f"Description: {clean_description}")
+            print(f"Callsign: {clean_callsign}")
+            print(f"Total Fuel (gal US): {clean_fuel}")
+            print("")
+
+            print(f"py .\\start_flight.py {clean_latitude} {clean_longitude} '{clean_description}'")
+            
+        except Exception as e:
+            print(f"Error: {e}")
+        finally:
+            await client.disconnect()
+
+        async def read_property(client, property_path):
+            raw_value = client.read_property(property_path)
+            cleaned_value = raw_value.replace("/> ", "").split('=')[1].split("(")[0].replace("'", "").strip()
+            print(f"{property_path}: {cleaned_value}")
+        
+            return cleaned_value
+
+        # 
+        # tank = await read_property(client, "/consumables/fuel/tank/level-gal_us")
+        # tank1 = await read_property(client, "/consumables/fuel/tank[1]/level-gal_us")
+        # tank2 = await read_property(client, "/consumables/fuel/tank[2]/level-gal_us")
+        # tank3 = await read_property(client, "/consumables/fuel/tank[3]/level-gal_us")
+        
 
         # client._putcmd("ls /consumables")
         # tanks = client._getresp()
@@ -110,33 +188,12 @@ if __name__ == "__main__":
 
         # print(" ".join(str(level) for level in tanks.values()))
 
-        time = time.split('=')[1].strip().replace("'", "").split()[0]
-        latitude = latitude.split('=')[1].strip().replace("'", "").split()[0]
-        longitude = longitude.split('=')[1].strip().replace("'", "").split()[0]
-        description = description.split('=')[1].strip().split("(")[0].replace("'", "").strip()
-        print(f"Time: {time}")
+        # time = time.split('=')[1].strip().replace("'", "").split()[0]
+        # latitude = latitude.split('=')[1].strip().replace("'", "").split()[0]
+        # longitude = longitude.split('=')[1].strip().replace("'", "").split()[0]
+        # description = description.split('=')[1].strip().split("(")[0].replace("'", "").strip()
+        # print(f"Time: {time}")
 
-        print(f"py .\\start_flight.py {latitude} {longitude} '{description}'")
-
-        def read_property(client, property_path):
-            raw_value = client.read_property(property_path)
-            cleaned_value = raw_value.replace("/> ", "").split('=')[1].split("(")[0].replace("'", "").strip()
-            print(f"{property_path}: {cleaned_value}")
-            return cleaned_value
-
-        fuel_gal_us = read_property(client, "/consumables/fuel/total-fuel-gal_us")
-        callsign = read_property(client, "/sim/multiplay/callsign")
-        tank = read_property(client, "/consumables/fuel/tank/level-gal_us")
-        tank1 = read_property(client, "/consumables/fuel/tank[1]/level-gal_us")
-        tank2 = read_property(client, "/consumables/fuel/tank[2]/level-gal_us")
-        tank3 = read_property(client, "/consumables/fuel/tank[3]/level-gal_us")
-
-        # print("Listing properties:")
-        # properties = client.list_properties()
-        # for prop in properties:
-        #     print(prop)
-
-    except Exception as e:
-        print(f"Error: {e}")
-    finally:
-        client.disconnect()
+        # print(f"py .\\start_flight.py {latitude} {longitude} '{description}'")
+      
+    asyncio.run(main())
