@@ -119,7 +119,14 @@ if __name__ == "__main__":
             callsign = await client.read_property("/sim/multiplay/callsign")
 
             fuel_gal_us = await client.read_property("/consumables/fuel/total-fuel-gal_us")
-
+            tank = await client.read_property("/consumables/fuel/tank/level-gal_us")
+            tank_name = await client.read_property("/consumables/fuel/tank/name")
+            tank1 = await client.read_property("/consumables/fuel/tank[1]/level-gal_us")
+            tank1_name = await client.read_property("/consumables/fuel/tank[1]/name")
+            tank2 = await client.read_property("/consumables/fuel/tank[2]/level-gal_us")
+            tank2_name = await client.read_property("/consumables/fuel/tank[2]/name")
+            tank3 = await client.read_property("/consumables/fuel/tank[3]/level-gal_us")
+            tank3_name = await client.read_property("/consumables/fuel/tank[3]/name")
 
             clean_latitude = latitude.replace("/> ", "").split('=')[1].split("(")[0].replace("'", "").strip()
             clean_longitude = longitude.replace("/> ", "").split('=')[1].split("(")[0].replace("'", "").strip()
@@ -127,13 +134,25 @@ if __name__ == "__main__":
             clean_callsign = callsign.replace("/> ", "").split('=')[1].split("(")[0].replace("'", "").strip()
             clean_time = time.replace("/> ", "").split('=')[1].split("(")[0].replace("'", "").strip()
             clean_fuel = fuel_gal_us.replace("/> ", "").split('=')[1].split("(")[0].replace("'", "").strip()
-
+            clean_tank = tank.replace("/> ", "").split('=')[1].split("(")[0].replace("'", "").strip()
+            clean_tank_name = tank_name.replace("/> ", "").split('=')[1].split("(")[0].replace("'", "").strip()
+            clean_tank1 = tank1.replace("/> ", "").split('=')[1].split("(")[0].replace("'", "").strip()
+            clean_tank1_name = tank1_name.replace("/> ", "").split('=')[1].split("(")[0].replace("'", "").strip()
+            clean_tank2 = tank2.replace("/> ", "").split('=')[1].split("(")[0].replace("'", "").strip()
+            clean_tank2_name = tank2_name.replace("/> ", "").split('=')[1].split("(")[0].replace("'", "").strip()
+            clean_tank3 = tank3.replace("/> ", "").split('=')[1].split("(")[0].replace("'", "").strip()
+            clean_tank3_name = tank3_name.replace("/> ", "").split('=')[1].split("(")[0].replace("'", "").strip()
+            
             print(f"Latitude: {clean_latitude}")
             print(f"Longitude: {clean_longitude}")
             print(f"Time elapsed: {clean_time}")
             print(f"Description: {clean_description}")
             print(f"Callsign: {clean_callsign}")
             print(f"Total Fuel (gal US): {clean_fuel}")
+            print(f"Tank 0 Level (gal US), {clean_tank_name}: {clean_tank}")
+            print(f"Tank 1 Level (gal US), {clean_tank1_name}: {clean_tank1}")
+            print(f"Tank 2 Level (gal US), {clean_tank2_name}: {clean_tank2}")
+            print(f"Tank 3 Level (gal US), {clean_tank3_name}: {clean_tank3}")
             print("")
 
             print(f"py .\\start_flight.py {clean_latitude} {clean_longitude} '{clean_description}'")
@@ -151,10 +170,7 @@ if __name__ == "__main__":
             return cleaned_value
 
         # 
-        # tank = await read_property(client, "/consumables/fuel/tank/level-gal_us")
-        # tank1 = await read_property(client, "/consumables/fuel/tank[1]/level-gal_us")
-        # tank2 = await read_property(client, "/consumables/fuel/tank[2]/level-gal_us")
-        # tank3 = await read_property(client, "/consumables/fuel/tank[3]/level-gal_us")
+
         
 
         # client._putcmd("ls /consumables")
